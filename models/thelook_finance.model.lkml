@@ -40,7 +40,7 @@ explore: +orders {
 
 # 4. Extended Custom Departmental Explore (Extends Pattern)
 explore: finance_high_value_audits {
-  view_name: order_items_ext
+  from: order_items_ext
   label: "Finance: High-Value Transaction Audits"
   group_label: "Finance Spoke"
 
