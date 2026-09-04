@@ -25,14 +25,16 @@ access_grant: pii_data {
 
 persist_with: finance_eod_datagroup
 
-# 3. Refined Hub Explores with Finance Branding & Accounting Focus
+# 3. Refined Hub Explores with Finance Branding & Accounting Focus (Unhidden for Finance)
 explore: +order_items {
+  hidden: no
   label: "Finance: Revenue & Tax Accounting"
   description: "Financial performance, margin breakdown, and tax liability"
   group_label: "Finance Spoke"
 }
 
 explore: +orders {
+  hidden: no
   label: "Finance: Order Audit Trail"
   description: "Reconciled order history"
   group_label: "Finance Spoke"
